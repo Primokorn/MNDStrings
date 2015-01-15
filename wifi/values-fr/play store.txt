@@ -16,7 +16,7 @@ WiFi Better Battery intègre aussi une option de sécurité. Il est bien connu q
 
 Les achats in-app sont UNIQUEMENT utilisés pour les dons et désactiver les publicités. L’ensemble des fonctionnalités de l’application est complètement gratuit.
 
-Les permissions demandées par WiFi Better Battery à votre appareil ont été choisies avec la plus grand attention. Toutes les permissions sont nécessaires pour une utilisation optimale.
+Les permissions demandées par WiFi Better Battery à votre appareil ont été choisies avec la plus grande attention. Toutes les permissions sont nécessaires pour une utilisation optimale.
 Si cela vous intéresse, nous avons listé toutes les demandes de permissions ci-dessous, chacune ayant une explication sur son utilisé.
 
 Permissions Réseau : nécessaire pour lister tous les réseaux disponibles et pour la connexion aux réseaux. L’application ne peut PAS consulter le trafic réseau ni les mots de passe.
