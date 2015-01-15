@@ -1,0 +1,23 @@
+Traduction française ajoutée !
+
+
+Prolonger l'autonomie de votre téléphone ou tablette avec WiFi Better Battery!
+
+
+WiFi Better Battery prolonge l'autonomie de votre téléphone en s'assurant que le WiFi/WLAN soit uniquement activé quand vous en avez besoin. Quand vous êtes de hors de portée de votre réseau WiFI, le WiFi de votre appareil est automatiquement coupé (après un court délai pour garder de rapides reconnexions suite à un retard de connexion). Dès que vous êtes de portée, votre WiFi est réactivé et vous êtes automatiquement reconnecté à votre réseau favori.
+
+Inutile de vous préoccuper de votre mot de passe réseau ou de vos identifiants de connexion - n’importe quel mot de passe saisi dans l’outil de paramètres original Android et l’application n’a pas la permission de voir le trafic réseau.
+
+<b>Qu’est-ce qui la rend meilleure que les autres applications ?</b> Les autres économiseurs d’énergie WiFi vous demande une condition pour activer (et d’autres aussi pour désactiver) le WiFi, comme l’heure de la journée ou votre position. Ceci implique moins de vie privée et plus d’utilisation de la batterie. WiFi Better Battery utilise uniquement un état de faible consommation d’énergie dans lequel seul le scan est disponible (Android 4.3 ou supérieur uniquement), pour toujours être rapidement connecté tout en économisant de la batterie.
+
+Cette application peut économiser de la batterie et éventuellement de l’argent – en oubliant d’activer votre WiFi et en téléchargement accidentellement quelque chose ou en regardant une vidéo au travers des données mobiles. Ceci ne vous arrivera plus jamais grâce à WiFi Better Battery !
+
+WiFi Better Battery intègre aussi une option de sécurité. Il est bien connu que la fonction WiFi d’Android n’est pas assez sécurisée. Par défaut, Android vérifie uniquement le nom du réseau avant de s’y connecter. Autrement dit, si vous avez un réseau sauvegardé et si Android détecte un autre réseau portant le même nom, alors Android va automatiquement essayer de se connecter. Un appareil malicieux peut utiliser ce système pour collecter des mots de passe qui sont envoyés lors des tentatives de connexion et envoie des données dangereuses vers votre appareil. WiFi Better Battery offre une option de contrôle sur l’adresse MAC pour empêcher de telles attaques. Les adresses MAC permettent uniquement l’identification d’un appareil.
+
+Les achats in-app sont UNIQUEMENT utilisés pour les dons et désactiver les publicités. L’ensemble des fonctionnalités de l’application est complètement gratuit.
+
+Les permissions demandées par WiFi Better Battery à votre appareil ont été choisies avec la plus grand attention. Toutes les permissions sont nécessaires pour une utilisation optimale.
+Si cela vous intéresse, nous avons listé toutes les demandes de permissions ci-dessous, chacune ayant une explication sur son utilisé.
+
+Permissions Réseau : nécessaire pour lister tous les réseaux disponibles et pour la connexion aux réseaux. L’application ne peut PAS consulter le trafic réseau ni les mots de passe.
+Internet : utilisé uniquement pour les publicités Google.
