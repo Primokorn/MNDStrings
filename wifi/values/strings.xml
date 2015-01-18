@@ -1,8 +1,9 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 	<string name="app_name">WiFi Better Battery</string>
 	<string name="action_wifi">WiFi Manager</string>
 	<string name="action_networks">Networks</string>
 	<string name="action_refresh">Scan</string>
+	<string name="action_setup">Set up</string>
 	<string name="nActionConnect">Connect once</string>
 	<string name="nActionAdd">Auto connect</string>
 	<string name="nActionDisconnect">Disconnect</string>
@@ -44,6 +45,7 @@
 	</string>
 	<string name="macTrusted">Trusted</string>
 	<string name="macBlocked">Blocked</string>
+	<string name="macCheck">MAC check</string>
 
 	<string name="macQuestion"><![CDATA[
 		Would you like to activate MAC checks?<br />
@@ -54,12 +56,11 @@
 		It is strongly recommended that you enable this, but it means a few additional warnings will be shown.
 	]]></string>
 	<string name="compatibilityModeActive">Legacy mode activated instead. You can change this in settings.</string>
-	
+
+	<string name="prefSetup">Show setup</string>
 	<string name="prefCatWifi">WiFi</string>
 	<string name="prefRefreshTime">Refresh interval</string>
 	<string name="prefRefreshTimeDesc">How often to check whether a network is in range. The smaller the interval, the quicker you will be connected, but the more battery is used!</string>
-	<string name="prefMacCheck">MAC check</string>
-	<string name="prefMacCheckDesc">Here you can disable the MAC check before a connection attempt (not recommended!). For more information about this feature please consult the \"Networks\" help.</string>
 	<string name="prefAutoFuncs">Automatic WiFi management</string>
 	<string name="prefAutoFuncsDesc">Automatically switch WiFi on and off and connect to known networks. Required to save battery! There is a widget for this setting for quick access.</string>
 	<string name="prefLegacy">Legacy auto-scan mode</string>
@@ -132,6 +133,30 @@
 			In \"Networks\" you can delete known networks and MAC addresses that you have added at an earlier time.
 		]]></item>
 	</string-array>
+
+	<string name="setup1">
+		Thank you for using WiFi Better Battery!
+		\n\nThis is a short introduction to WiFi Better Battery\'s functions.
+		\n\nIf you already know how to use it, or just want to start using it right now, simply use the Back button. You can later return here from the Settings.
+		\n\nOtherwise, you can navigate through the following two pages by swiping horizontally.
+	</string>
+	<string name="setup2">
+		When you are not connected to any network, your device\'s WiFi is turned off - even if you turn it on manually.
+		\n\nIf you don\'t want that sometimes, you can use the Setting \"Automatic WiFi management\" or the widget to disable that temporarily.
+		\n\nTo connect to a network automatically, you need to save it within the app. Don\'t worry about your password, it is still managed by Android and the app cannot access it.
+		\n\nWhen you select a network, use \"Connect automatically\" if you want to use the network any time you are in its range, otherwise use \"Connect once\".
+		\n\nOn the next and last page you will set up a network.
+	</string>
+	<string name="setup3">
+		Simply tap on a network and set it to \"Connect automatically\" to activate automatic WiFi management.
+		\nYou can either do this right now or at a later point in time. Press Back once you\'re done!
+	</string>
+	<string name="setup2Connected">
+		You are already connected to a network. What would you like to do with it?
+	</string>
+	<string name="setup2Auto">Stay connected and connect to it automatically from now on.</string>
+	<string name="setup2Stay">Do nothing, just save the network and stay connected for now.</string>
+	<string name="setup2Disconnect">Disconnect</string>
 
 	<string name="dialogConnect">Connect</string>
 </resources>
