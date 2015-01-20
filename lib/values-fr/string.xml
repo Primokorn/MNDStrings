@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Actions -->
+	<string name="app_name"/>
+	<string name="drawer_open">Ouvrir menu</string>
+	<string name="drawer_close">Fermer menu</string>
+	<string name="action_settings">Paramètres</string>
+	<string name="action_help">Aide</string>
+	<string name="action_about">A propos</string>
+	<string name="expand">Etendre</string>
+	<string name="collapse">Replier</string>
+	<string name="action_add">Ajouter…</string>
+	<string name="action_edit">Modifier</string>
+	<string name="action_delete">Supprimer</string>
+	<string name="pleaseWait">Veuillez patienter…</string>
+	
+	<!-- Preferences -->
+	<string name="prefCatGeneral">Général</string>
+	<string name="prefLang">Langue</string>
+	<string name="systemLanguage">Langue système</string>
+	<string name="prefAds">Afficher les pubs</string>
+	<string name="prefAdsDesc">Merci de soutenir le développeur en laissant afficher les pubs non obstructives.</string>
+	<string name="prefTheme">Thème</string>
+	<string name="prefThemeDesc">Ici vous pouvez choisir entre un thème clair ou sombre.</string>
+	<string name="themeLight">Clair</string>
+	<string name="themeDark">Sombre</string>
+	<string name="prefDrawer">Panneau ouvert au démarrage</string>
+	<string name="prefDrawerDesc">Si vous activez ceci, le panneau de gauche s\’ouvrira au lancement de l\’application. (aucun impact sur les tablettes)</string>
+	<string name="adsAsk">
+		Nous comprenons l\’aversion envers les pubs, elles peuvent être ennuyantes. Mais créer des applications représentent beaucoup de travail.
+		\nSi vous ne voulez pas voir de pubs, merci de considérer un don à la place.
+	</string>
+	
+	<!-- Help -->
+   	<string name="helpNav"><![CDATA[
+		<h1>Navigation</h1>
+		En appuyant sur les trois lignes horizontales en haut à gauche, vous pouvez ouvrir le panneau de navigation. (il est toujours ouvert sur tablette) <br />
+		Vous pouvez accéder à toutes les autres pages d\’aide en appuyant &quot;%s&quot; ci-dessus.
+	]]></string>
+	<string name="helpUs"><![CDATA[
+	    <h1>Nous avons besoin de votre aide !</h1>
+		Merci d\’aider %1$s à gagner en popularité en la recommandant à vos amis ou en faisant l\’une des choses suivantes : <br /><br />
+		<a href="https://www.facebook.com/%2$s">Aimer et partager notre page sur Facebook ! </a><br /><br />
+		<a href="market://details?id=%3$s">Merci de noter %1$s sur le Google Play Store !</a><br /><br />
+		<a href="">Vous pouvez aussi aider en faisant un don !</a><br /><br />
+		<a href="https://github.com/CanisLupusXenonis/MNDStrings">Ou aider à traduire l\’application dans une autre langue !</a>
+	]]></string>
+    <string-array name="help_spinner"/>
+    <string-array name="help_texts"/>
+    <string name="helpUsTitle">Nous avons besoin de votre aide !</string>
+    <string name="helpUsMessage">Aimez-vous %s ? Si oui, merci…</string>
+    <string-array name="helpUsItems">
+        <item>Notez-la avec 5 étoiles sur le Google Play Store !</item>
+        <item>Aimez-la sur Facebook !</item>
+        <item>Faites-nous un retour !</item>
+	    <item>Faites un don !</item>
+    </string-array>
+	
+	<!-- Info -->
+	<string name="credits"><b>Développeur</b>\nMichael Heissenberger</string>
+	<string name="translatorsTitle">Traducteurs</string>
+	<string name="disclaimer"><b>Avertissement</b>
+	    \nCette application est fournie gratuitement dans le but d\’aider ceux qui en ont besoin. Etant qu\’il s\’agit d\’un service tiers, nous ne pouvons pas garantir qu\’il fonctionnera parfaitement ni qu\’il ne fournisse des informations fiables.
+	    \nEn utilisant cette application, vous acceptez de ne pas nous rendre responsable pour tout dommage ou problème que vous pourriez rencontrer lors de l\’utilisation de cette application.
+	</string>
+	<string name="contactUs">Contactez-nous</string>
+	<string name="donate">Faire un don</string>
+	<string name="noMailApp">Aucune application e-mail trouvée.</string>
+	<string name="noBrowserApp">Aucun navigateur web trouvé.</string>
+
+	<string name="donateText">
+		Merci de considérer à nous faire un don !
+		\nNous sommes ravis de savoir que vous aimez suffisamment notre application pour faire un geste.
+		\nPour vous remercier de nous remercier, si vous faites un don, vous pouvez désactiver les pubs !
+	</string>
+	<string name="donate1">Débarrassez-vous des pubs ! (%s)</string>
+	<string name="donate2">Soyez une bonne personne ! (%s)</string>
+	<string name="donate3">Achetez notre amour ! (%s)</string>
+	<string name="donateThankYou">Merci beaucoup pour ce don ! Vous pouvez désormais désactiver les pubs dans les Paramètres.</string>
+	<string name="connectionError">Hélas, une erreur est survenue. Il y a peut-être un problem avec votre connexion réseau.</string>
+	<string name="alreadyDonated">Vous l\’avez déjà acheté ! Merci quand même !</string>
+
+	<!-- Dialog fields -->
+	<string name="dialogYes">Oui</string>
+	<string name="dialogNo">Non</string>
+	<string name="dialogNotNow">Pas maintenant</string>
+	<string name="dialogNever">Non, ne plus me redemander</string>
+	<string name="dialogSave">Enregistrer</string>
+	<string name="dialogCancel">Annuler</string>
+	<string name="dialogOK">OK</string>
+
+</resources>
