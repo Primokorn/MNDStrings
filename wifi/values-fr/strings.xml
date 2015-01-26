@@ -3,6 +3,7 @@
 <string name="action_wifi">Gestionnaire WiFi</string>
 <string name="action_networks">Réseaux</string>
 <string name="action_refresh">Scan</string>
+<string name="action_setup">Configurer</string>
 <string name="nActionConnect">Connexion unique</string>
 <string name="nActionAdd">Connexion auto</string>
 <string name="nActionDisconnect">Déconnexion</string>
@@ -42,6 +43,7 @@ Vous n\’avez pas encore de données de connexion stockées pour ce réseau.
 </string>
 <string name="macTrusted">Fiable</string>
 <string name="macBlocked">Bloqué</string>
+<string name="macCheck">Contrôle MAC</string>
 <string name="macQuestion"><![CDATA[
 Souhaitez-vous activer les contrôles MAC ?<br />
 Par défaut, Android vérifie <i>uniquement</i> le nom du réseau avant de s’y connecter.<br />
@@ -51,11 +53,10 @@ En faisant ce contrôle, vous pouvez vérifier l\’identité d\’un réseau.<b
 Il est fortement recommandé de l\’activer, mais cela entraîne des avertissements supplémentaires.
 ]]></string>
 <string name="compatibilityModeActive">Ancien mode activé. Vous pouvez changer cela dans les paramètres.</string>
+<string name="prefSetup">Afficher la configuration</string>
 <string name="prefCatWifi">WiFi</string>
 <string name="prefRefreshTime">Actualiser l\’intervalle</string>
 <string name="prefRefreshTimeDesc">A quelle fréquence voulez-vous vérifier la portée du réseau ? Plus l\’intervalle est petit, plus vite vous serez connecté mais plus la batterie sera sollicitée !</string>
-<string name="prefMacCheck">Contrôle MAC</string>
-<string name="prefMacCheckDesc">Ici vous pouvez désactiver le contrôle MAC avant la tentative de connexion (déconseillé !). Pour plus d\’informations sur cette option, merci de consulter l\’aide \"Réseaux\".</string>
 <string name="prefAutoFuncs">Gestion automatique du WiFi<string>
 <string name="prefAutoFuncsDesc">Basculer automatiquement le WiFi sur ON et OFF et se connecter aux réseaux connus. Nécessaire pour l\’autonomie ! Il y a un widget pour ce paramètre (accès rapide). </string>
 <string name="prefLegacy">Ancien mode scan auto</string>
@@ -121,5 +122,28 @@ Lors de la connexion au réseau et quand le contrôle MAC est active, WiFi Bette
 Dans \"Réseaux\" vous pouvez supprimer les réseaux connus et les adresses MAC que vous avez préalablement ajoutées.
 ]]></item>
 </string-array>
+<string name="setup1">
+		Merci d\'utiliser WiFi Better Battery !
+		\n\nCeci est une courte introduction aux fonctionnalités de WiFi Better Battery.
+		\n\nSi vous savez déjà comment l\'utiliser, ou si vous voulez commencer à l\'utiliser tout de suite, appuyez simplement sur le bouton Retour. Vous pourrez revenir ici plus tard depuis les Paramètres.
+		\n\nSinon, vous pouvez naviguer sur les 2 pages suivantes en glissant votre doigt horizontalement.
+	</string>
+	<string name="setup2">
+		Quand vous n\'êtes pas connecté à un réseau, le WiFi de votre appareil est coupé - même si vous l\'activez manuellement.
+		\n\nParfois, si vous ne voulez pas cela, vous pouvez utiliser le paramètre \"Gestion Automatique du WiFi\" ou le widget pour le désactiver temporairement.
+		\n\nPour se connecter à un réseau automatiquement, vous devez l\'enregistrer dans l\'appli. Ne vous inquiétez pas par rapport à votre mot de passe, il est toujours géré par Android et l\'appli ne peut y avoir accès.
+		\n\nQuand vous sélectionnez un réseau, utilisez \"Connexion automatique\" si vous voulez utiliser le réseau à partir du moment où vous êtes à sa porté, sinon utilisez \"Connexion unique\".
+		\n\nSur la prochaine et dernière page, vous allez configurer un réseau.
+	</string>
+	<string name="setup3">
+		Appuyez simplement sur un réseau et définissez-le sur \"Connexion automatique\" pour activer la gestion automatique du WiFi.
+		\nVous pouvez soit le faire tout de suite ou plus tard. Appuyez sur Retour une fois ceci fait !
+	</string>
+	<string name="setup2Connected">
+		Vous êtes déjà connecté au réseau. Que voulez-vous faire avec celui-ci ?
+	</string>
+	<string name="setup2Auto">Rester connecté et s'y connecter automatiquement désormais.</string>
+	<string name="setup2Stay">Ne rien faire, juste sauvegarder le réseau et rester connecté pour le moment.</string>
+	<string name="setup2Disconnect">Se déconnecter</string>
 <string name="dialogConnect">Se connecter</string>
 </resources>
